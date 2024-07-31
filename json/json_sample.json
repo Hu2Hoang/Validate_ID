@@ -1,0 +1,25 @@
+{
+    "errorCode" : 0,
+    "errorMessage" : "",
+    "data": [
+      {
+        "id": "037203004898",
+        "name": "ĐINH HỮU HOÀNG",
+        "dob": "31/08/2003",
+        "sex": "Nam",
+        "nationality": "Việt Nam",
+        "home": "Khánh An, Yên Khánh, Ninh Bình",
+        "address": "Phúc Lộc, Phúc Thành, Thành phố Ninh Bình, Ninh Bình",
+        "address_entities": {
+              "province": "Ninh Bình",
+              "district": "Thành phố Ninh Bình",
+              "ward": "Phúc Thành",
+              "street": "Phúc Lộc"
+        },
+        "doe": "31/08/2028",
+        "type": "xxxx",
+        "features": "nốt ruồi",
+        "issue_date": "14/08/2021"
+      }
+    ]
+  }

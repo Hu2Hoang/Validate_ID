@@ -1,0 +1,32 @@
+
+100, f"Địa chỉ hợp lệ: {ward_name}, {district_name}, {city_name}"
+101, f"'{ward_name}' không tồn tại trong quận '{district_name}' của thành phố '{city_name}'"
+102, f"Quận '{district_name}' không tồn tại trong thành phố '{city_name}'"
+103, f"Thành phố '{city_name}' không tồn tại"
+
+200 - ID extract trả ra thông tin hợp lệ
+210 - Regex ID hợp lệ
+211 - Regex ID không hợp lệ
+212 - 3 Số đầu trong CCCD không tồn tại tỉnh
+
+300 - Infnormation valid : Thông tin ID - Quê Quán, Nguyên Quán, Ngày sinh, giới tính trùng khớp
+310 - Thông tin trích xuất từ ID card không trùng với OCR (Tỉnh, Giới tính, Năm Sinh)
+320 - Thông tin quê quán không chính xác
+
+400 - Date valid 
+410 - Ngày hợp lệ
+412 - YOB không hợp lệ: Tháng 6 có 31 ngày, xuất hiện tháng 14,..
+413 - DOE không hợp lê;
+414 - Issue Date không hợp lệ
+401 - Năm sinh lớn hơn năm hiện tại hoặc ngày cấp lớn hơn năm hiện tại
+402 - CCCD hết hạn
+403 - Chưa đủ 18 tuổi
+405 - Ngày hết hạn không hợp lệ
+
+
+dob < current year | Chưa đủ 18 tuổi
+ngày hết hạn
+Căn cước công dân được cấp từ khi đủ 14 đến trước 23 tuổi sẽ hết hạn vào năm 25 tuổi. 
+- Căn cước công dân được cấp từ khi đủ 23 đến trước 38 tuổi sẽ hết hạn vào năm 40 tuổi. 
+- Căn cước công dân được cấp từ khi đủ 38 đến trước 58 tuổi sẽ hết hạn vào năm 60 tuổi.
+- Căn cước công dân từ khi đủ 58 tuổi trở đi sẽ được sử dụng cho đến khi người đó chết (trừ trường hợp thẻ bị mất hoặc hư hỏng).
